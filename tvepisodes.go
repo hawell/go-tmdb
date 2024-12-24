@@ -30,6 +30,7 @@ type TvEpisode struct {
 	ProductionCode string  `json:"production_code"`
 	SeasonNumber   int     `json:"season_number"`
 	StillPath      string  `json:"still_path"`
+	Runtime        int     `json:"runtime"`
 	VoteAverage    float32 `json:"vote_average"`
 	VoteCount      uint32  `json:"vote_count"`
 }
